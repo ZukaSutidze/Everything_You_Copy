@@ -13,7 +13,7 @@
 
     header{
         width: 100vw;
-        background-image: url(Assets/Desktop/Desktopbackgroud.svg);
+        background-image: url(./Assets/Desktop/Desktopbackgroud.svg);
         background-size: cover;
         background-repeat: no-repeat;
         background-position: top;
@@ -83,7 +83,8 @@
     }
 
     .Texts{
-        margin-left: 110px;
+        position: absolute;
+        left: 54%;
     }
 
     .Bold{
@@ -180,13 +181,18 @@
         margin-top: 150px;
         flex-direction: row;
         align-items: start;
-        justify-content: start;
+        justify-content: center;
      
+    }
+
+    .Footerdiv{
+        width: 1440px;
+        display: flex;
+        flex-direction: row;
     }
 
     .deskc{
         margin-left: 165px;
-        margin-top: 54px;
     }
 
     .About{
